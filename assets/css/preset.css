@@ -1,14 +1,3 @@
-/*
- Theme Name: Bittanto
- Theme URI: https://themeforest.net/user/themewar/portfolio
- Author: themewar
- Author URI:
- Description: Bittanto - Creative Resume HTML5 Responsive Template
- Version: 1.0
- License:
- License URI:
-*/
-
 /*==================================
     [Table of contents]
 ===================================
@@ -25,11 +14,12 @@
 /*------------------------------------------------------
 /  2. Presets & Typography Settings
 /------------------------------------------------------*/
-html,body{
+html, body {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -38,19 +28,23 @@ body{
     color: #808080;
     padding: 80px 0;
 }
-body.dark{
+
+body.dark {
     background: url(../images/bg/1.png) no-repeat fixed top center #34313f;
 }
-p{
+
+p {
     margin: 0 0 15px;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: #333333;
     line-height: 1.3333;
     margin: 0 0 15px;
 }
-a{
+
+a {
     color: #7635f5;
     text-decoration: none;
 
@@ -58,54 +52,69 @@ a{
     -moz-transition: all ease 300ms;
     -webkit-transition: all ease 300ms;
 }
-a:hover{
+
+a:hover {
     color: #01d85f;
     text-decoration: none;
 }
-input:focus, button:focus, select:focus, textarea:focus, a:focus{
+
+input:focus, button:focus, select:focus, textarea:focus, a:focus {
     outline: 0;
     box-shadow: none;
 }
-.fw_300{
+
+.fw_300 {
     font-weight: 300;
 }
-.fw_400{
+
+.fw_400 {
     font-weight: 400;
 }
-.fw_500{
+
+.fw_500 {
     font-weight: 500;
 }
-.fw_600{
+
+.fw_600 {
     font-weight: 600;
 }
-.fw_700{
+
+.fw_700 {
     font-weight: 700;
 }
-.wb_all{
+
+.wb_all {
     word-break: break-all;
 }
-.fs_italic{
+
+.fs_italic {
     font-style: italic;
 }
-.td_underline{
+
+.td_underline {
     border-bottom: 1px solid currentColor;
     display: inline;
     line-height: 1;
     word-break: break-word;
 }
-.secondary_color{
+
+.secondary_color {
     color: #01d85f;
 }
-.primary_color{
+
+.primary_color {
     color: #7635f5;
 }
-.dark_color{
+
+.dark_color {
     color: #1e1e1e;
 }
-.dark_color_2{
+
+.dark_color_2 {
     color: #333333;
 }
-.sectionTitle{
+
+.sectionTitle {
     font-weight: 700;
     font-size: 20px;
     color: #01d85f;
@@ -115,7 +124,8 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     position: relative;
     padding: 0 0 13px;
 }
-.sectionTitle:after{
+
+.sectionTitle:after {
     content: '';
     width: 40px;
     height: 4px;
@@ -124,7 +134,8 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     bottom: 0;
     background: url(../images/bg/2.png) no-repeat left center;
 }
-.btt_btn{
+
+.btt_btn {
     height: 50px;
     display: inline-block;
     padding: 0 35px;
@@ -140,33 +151,40 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.bttb_dark{
+
+.bttb_dark {
     background: #292633;
     color: #FFF;
 }
-.btt_reverse{
+
+.btt_reverse {
     background: #01d85f;
 }
-.btt_btn.only_icon{
+
+.btt_btn.only_icon {
     padding: 0 5px;
     width: 50px;
     text-align: center;
     letter-spacing: 0;
 }
-.btt_btn i{
+
+.btt_btn i {
     font-size: 18px;
     line-height: .8;
     position: relative;
     top: 4px;
     margin-right: 9px;
 }
-.btt_btn.only_icon i{
+
+.btt_btn.only_icon i {
     margin: 0;
 }
+
 .btt_btn span {
     position: relative;
     z-index: 2;
 }
+
 .btt_btn::after {
     content: "";
     width: 0;
@@ -176,22 +194,26 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     right: 0;
     top: 0;
     background: #01d85f;
-    transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
-    -moz-transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
-    -webkit-transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
+    transition: width .4s cubic-bezier(.25, .8, .25, 1) 0s;
+    -moz-transition: width .4s cubic-bezier(.25, .8, .25, 1) 0s;
+    -webkit-transition: width .4s cubic-bezier(.25, .8, .25, 1) 0s;
 }
-.btt_reverse:after{
+
+.btt_reverse:after {
     background: #7635f5;
 }
-.btt_btn:hover{
+
+.btt_btn:hover {
     color: #FFF;
 }
+
 .btt_btn:hover:after {
     width: 100%;
     left: 0;
     right: auto;
 }
-.commonSection{
+
+.commonSection {
     padding: 30px 15px;
 }
 
@@ -211,6 +233,7 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     text-align: center;
     background: #201E29;
 }
+
 .preloader .vs-btn.vs-style1 {
     position: absolute;
     top: 0;
@@ -221,6 +244,7 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     font-size: 16px;
     border: none;
 }
+
 .preloader .preloader-box {
     position: relative;
     padding-left: 5px;
@@ -229,6 +253,7 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     perspective: 200px;
     margin-top: 30px;
 }
+
 .preloader .letter {
     animation: movement 600ms ease var(--animation) infinite alternate;
     position: relative;
@@ -242,6 +267,7 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
     background: #01d85f;
     margin-right: -1px;
 }
+
 @media (max-width: 576px) {
     .preloader .letter {
         width: 30px;
@@ -249,30 +275,39 @@ input:focus, button:focus, select:focus, textarea:focus, a:focus{
         line-height: 30px;
     }
 }
+
 .preloader .letter:nth-child(1) {
     --animation: 0ms;
 }
+
 .preloader .letter:nth-child(2) {
     --animation: 75ms;
 }
+
 .preloader .letter:nth-child(3) {
     --animation: 150ms;
 }
+
 .preloader .letter:nth-child(4) {
     --animation: 225ms;
 }
+
 .preloader .letter:nth-child(5) {
     --animation: 300ms;
 }
+
 .preloader .letter:nth-child(6) {
     --animation: 375ms;
 }
+
 .preloader .letter:nth-child(7) {
     --animation: 450ms;
 }
+
 .preloader .letter:nth-child(8) {
     --animation: 525ms;
 }
+
 @keyframes movement {
     from {
         transform: scale(0.6) translateY(0px) rotateX(0deg);

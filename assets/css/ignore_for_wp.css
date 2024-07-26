@@ -1,33 +1,43 @@
-.mt30{
+.mt30 {
     margin-top: 30px;
 }
-.mb22{
+
+.mb22 {
     margin-bottom: 22px;
 }
-.mb27{
+
+.mb27 {
     margin-bottom: 27px !important;
 }
-.mt52{
+
+.mt52 {
     margin-top: 52px;
 }
-.itemMb30 .icon_box_02{
+
+.itemMb30 .icon_box_02 {
     margin-bottom: 30px;
 }
-.mt60{
+
+.mt60 {
     margin-top: 60px;
 }
-.mb30{
+
+.mb30 {
     margin-bottom: 30px;
 }
-.mt23{
+
+.mt23 {
     margin-top: 23px;
 }
-.pageContent p.mb22{
+
+.pageContent p.mb22 {
     margin-bottom: 22px;
 }
-.pageContent p.mb14{
+
+.pageContent p.mb14 {
     margin-bottom: 14px;
 }
-.aboutSection{
+
+.aboutSection {
     background: url(../images/bg/6.png) no-repeat right 94px;
 }

@@ -1,14 +1,3 @@
-/*
- Theme Name: Bittanto
- Theme URI: https://themeforest.net/user/themewar/portfolio
- Author: themewar
- Author URI:
- Description: Bittanto - Creative Resume HTML5 Responsive Template
- Version: 1.0
- License:
- License URI:
-*/
-
 /*=======================================================================
 [Table of contents]
 =========================================================================
@@ -22,64 +11,71 @@
 /*------------------------------------------------------------------------------------
 / 1. Responsive For Extra large Device 2
 --------------------------------------------------------------------------------------*/
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1200px) and (max-width: 1600px) {
 
 }
 
 /*------------------------------------------------------------------------------------
 / 2. Desktop Device
 /--------------------------------------------------------------------------------------*/
-@media (min-width: 1024px) and (max-width: 1360px){
-
-
-    .mainMenu ul li{
+@media (min-width: 1024px) and (max-width: 1360px) {
+    .mainMenu ul li {
         min-width: 100px;
     }
-    .psFooter, .psSkills{
+
+    .psFooter, .psSkills {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .pssBox h5{
+
+    .pssBox h5 {
         font-size: 15px;
     }
-    .commonSection{
+
+    .commonSection {
         padding-left: 5px;
         padding-right: 5px;
     }
-    .pricingTable, .icon_box_02{
+
+    .pricingTable, .icon_box_02 {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .kr-accordion .card-header h2 a span{
+
+    .kr-accordion .card-header h2 a span {
         line-height: 28px;
         display: inline-block;
     }
-    .ac_meta span{
+
+    .ac_meta span {
         margin-bottom: 5px;
     }
-    .sicmr_tag a{
+
+    .sicmr_tag a {
         margin-left: 15px;
     }
-    .icon_box_01 p{
+
+    .icon_box_01 p {
         font-size: 16px;
         word-break: break-all;
     }
 }
+
 /*------------------------------------------------------------------------------------
 / 3. Responsive For Tab Device
 /--------------------------------------------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px) {
 
 }
+
 /*------------------------------------------------------------------------------------
 / 4. Responsive For Mobile & Tab
 /--------------------------------------------------------------------------------------*/
-@media (max-width: 1023px){
-
-
-    .menu_btn{
+@media (max-width: 1023px) {
+    .menu_btn {
+        width: 100%;
         height: 100%;
-        width: calc(100% - 90px);
+        /*width: calc(100% - 90px);*/
         background: #01d85f;
         color: #FFF;
         line-height: 90px;
@@ -92,15 +88,18 @@
         position: absolute;
         left: 0;
     }
-    .menu_btn i{
+
+    .menu_btn i {
         font-size: 16px;
         margin-right: 10px;
     }
-    .menu_btn:hover, .menu_btn.active{
+
+    .menu_btn:hover, .menu_btn.active {
         background: #01d85f;
         color: #FFF;
     }
-    .mainMenu{
+
+    .mainMenu {
         z-index: 99;
         position: absolute;
         left: 0;
@@ -114,10 +113,12 @@
         display: none;
         float: none;
     }
-    .mainMenu > ul{
+
+    .mainMenu > ul {
         display: block;
     }
-    .mainMenu > ul > li{
+
+    .mainMenu > ul > li {
         padding: 0;
         margin: 0;
         display: block;
@@ -125,138 +126,173 @@
         min-width: 100%;
         float: none;
     }
-    .mainMenu > ul > li > a{
+
+    .mainMenu > ul > li > a {
         padding: 18px 20px;
         text-align: left;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
-    .mainMenu ul li a i{
+
+    .mainMenu ul li a i {
         position: relative;
         font-size: 14px;
         opacity: 1;
         top: 2px;
         margin-right: 10px;
     }
+
     .mainMenu ul li.active i, .mainMenu ul li:hover i {
         opacity: 1;
     }
-    .col-lg-8.contentColumn{
+
+    .col-lg-8.contentColumn {
         -ms-flex: 0 0 58%;
         flex: 0 0 58%;
         max-width: 58%;
     }
+
     .col-lg-4.profileColumn {
         -ms-flex: 0 0 42%;
         flex: 0 0 42%;
         max-width: 42%;
     }
-    .pssBox h5{
+
+    .pssBox h5 {
         font-size: 15px;
     }
-    .psFooter, .psSkills{
+
+    .psFooter, .psSkills {
         padding-left: 25px;
         padding-right: 25px;
     }
-    .pricingTable{
+
+    .pricingTable {
         margin-bottom: 30px;
     }
-    .singleTestimonial{
+
+    .singleTestimonial {
         padding-left: 0;
     }
-    .testiImg{
+
+    .testiImg {
         position: relative;
         margin-bottom: 20px;
     }
-    .icon_box_03{
+
+    .icon_box_03 {
         margin-bottom: 40px;
     }
-    .kr-accordion .card-header h2 a span{
+
+    .kr-accordion .card-header h2 a span {
         line-height: 28px;
         display: inline-block;
     }
-    .commonSection{
+
+    .commonSection {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .filterUL{
+
+    .filterUL {
         display: block;
         top: 0;
         margin: 0 0 30px;
     }
-    .icon_box_4{
+
+    .icon_box_4 {
         margin-bottom: 30px;
     }
-    .folioMeta{
+
+    .folioMeta {
         margin-top: 40px;
     }
-    .sicmr_social{
+
+    .sicmr_social {
         justify-content: flex-start;
         margin-top: 20px;
     }
-    .authorDetails{
+
+    .authorDetails {
         display: block;
     }
-    .comment_list li .children{
+
+    .comment_list li .children {
         margin-left: 15px;
     }
-    .single-comment{
+
+    .single-comment {
         padding-left: 0;
     }
-    .single-comment img{
+
+    .single-comment img {
         position: relative;
         margin-bottom: 20px;
     }
-    .contact_form{
+
+    .contact_form {
         margin-bottom: 50px;
     }
 }
+
 /*------------------------------------------------------------------------------------
 / 5. Responsive For Mobile Device
 --------------------------------------------------------------------------------------*/
-@media (max-width: 767px){
-    .biDetails{
+@media (max-width: 767px) {
+    .biDetails {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .ac_meta span{
+
+    .ac_meta span {
         margin-bottom: 5px;
     }
-    .sliderItem img{
+
+    .sliderItem img {
         opacity: 1;
     }
-    .ldInner{
+
+    .ldInner {
         display: block;
     }
-    .ldInner h5{
+
+    .ldInner h5 {
         margin: 0 0 15px;
     }
+
     .ldInner span {
         margin-right: 7px;
         display: inline-block;
     }
-    .aboutSection .mt60 .col-lg-7{
+
+    .aboutSection .mt60 .col-lg-7 {
         margin-top: 30px;
     }
-    .commonSection{
+
+    .commonSection {
         padding-left: 0;
         padding-right: 0;
     }
+
     .col-lg-8.contentColumn,
     .col-lg-4.profileColumn {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .profileSidebar{
+
+    .profileSidebar {
         margin-bottom: 40px;
     }
-    .sidebar{
+
+    .sidebar {
         width: 100%;
     }
-    .sidebar .mCSB_inside > .mCSB_container{
+
+    .sidebar .mCSB_inside > .mCSB_container {
         padding-right: 25px;
     }
-    .widget_closer{
+
+    .widget_closer {
         position: fixed;
         right: 15px;
         bottom: 15px;
@@ -271,7 +307,8 @@
         display: block;
         color: #808080;
     }
-    .widget_closer:hover{
+
+    .widget_closer:hover {
         color: #01d85f;
         border-color: #01d85f;
     }

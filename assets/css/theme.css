@@ -1,3 +1,19 @@
+.header-space {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 80px;
+    background: url(../images/bg/1.png) no-repeat fixed top center #34313f;
+}
+
+@media (max-width: 767px) {
+    .header-space {
+        display: none;
+    }
+}
+
 /*--------------------------------------------------------
 / 1. Profile Sidebar
 /---------------------------------------------------------*/
@@ -14,9 +30,10 @@
     box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, 1);
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1024px) {
     .profileSidebar {
-        position: fixed;
+        position: sticky;
+        top: 80px;
     }
 }
 
@@ -226,10 +243,18 @@
 .header {
     position: relative;
     min-height: 90px;
+    margin-bottom: 30px;
     background: #201e29;
     box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, 1);
-    margin-bottom: 30px;
 }
+
+/*@media (min-width: 1024px) {*/
+/*    .header {*/
+/*        position: sticky;*/
+/*        top: 80px;*/
+/*        z-index: 100;*/
+/*    }*/
+/*}*/
 
 .mainMenu {
     position: relative;
@@ -276,7 +301,6 @@
 .mainMenu ul li a {
     display: block;
     font-size: 14px;
-    line-height: 34px;
     color: #FFF;
     font-weight: 500;
     text-transform: capitalize;
@@ -366,9 +390,9 @@
 / 3. Content Area
 /---------------------------------------------------------*/
 .bodyContent {
+    position: relative;
     background: #201e29;
     box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, 1);
-    position: relative;
 }
 
 .icon_box_01 {
@@ -615,16 +639,15 @@
 }
 
 .owl-carousel button.owl-dot {
-    border: none;
+    position: relative;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
     box-shadow: none;
     border: none;
     border-radius: 50%;
     text-align: center;
-    height: 8px;
-    width: 8px;
     line-height: 8px;
-    position: relative;
-    margin-right: 5px;
 }
 
 .owl-carousel button.owl-dot:last-child {
@@ -1011,7 +1034,7 @@
     font-size: 12px;
     font-weight: 700;
     line-height: inherit;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     margin-left: auto;
     color: #7635f5;
 }
@@ -2020,10 +2043,6 @@ textarea {
     transition: all ease 300ms;
     -moz-transition: all ease 300ms;
     -webkit-transition: all ease 300ms;
-}
-
-body.SideBarOpened {
-    overflow: hidden;
 }
 
 .SideBarOpened .sidebar {
