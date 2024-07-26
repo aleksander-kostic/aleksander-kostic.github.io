@@ -4,68 +4,51 @@
     /*--------------------------------------------------------
     / 1. Init Vars
     /---------------------------------------------------------*/
-    var testimonialSlider = $('.testimonialSlider'),
-        clientSlider = $('.clientSlider'),
-        Grid = $('#Grid'),
-        folioGallery = $('#folioGallery'),
+    // var testimonialSlider = $('.testimonialSlider'),
+    //     clientSlider = $('.clientSlider'),
+    var Grid = $('#Grid'),
         pssBox = $('.pssBox'),
         hasCounter = $('.hasCounter');
 
     /*--------------------------------------------------------
     / 2. All Slider
     /----------------------------------------------------------*/
-    if (testimonialSlider.length > 0) {
-        var testimonialSlider_obj = testimonialSlider.owlCarousel({
-            margin: 0,
-            loop: true,
-            nav: true,
-            dots: true,
-            items: 1,
-            navText: ['<i class="icofont-long-arrow-left"></i>', '<i class="icofont-long-arrow-right"></i>']
-        });
-    }
+    // if (testimonialSlider.length > 0) {
+    //     testimonialSlider.owlCarousel({
+    //         margin: 0,
+    //         loop: true,
+    //         nav: true,
+    //         dots: true,
+    //         items: 1,
+    //         navText: ['<i class="icofont-long-arrow-left"></i>', '<i class="icofont-long-arrow-right"></i>']
+    //     });
+    // }
 
-    if (clientSlider.length > 0) {
-        var clientSlider_obj = clientSlider.owlCarousel({
-            margin: 2,
-            loop: true,
-            nav: false,
-            dots: false,
-            items: 4,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    autoWidth: false
-                },
-                768: {
-                    items: 2
-                },
-                1024: {
-                    items: 3
-                },
-                1200: {
-                    items: 4
-                }
-            }
-        });
-    }
-
-    if (folioGallery.length > 0) {
-        folioGallery.lightSlider({
-            gallery: true,
-            item: 1,
-            loop: true,
-            thumbItem: 3,
-            slideMargin: 0,
-            enableDrag: false,
-            currentPagerPosition: 'left',
-            thumbMargin: 5,
-            onSliderLoad: function () {
-                folioGallery.removeClass('cS-hidden');
-            }
-        });
-    }
+    // if (clientSlider.length > 0) {
+    //     clientSlider.owlCarousel({
+    //         margin: 2,
+    //         loop: true,
+    //         nav: false,
+    //         dots: false,
+    //         items: 4,
+    //         responsiveClass: true,
+    //         responsive: {
+    //             0: {
+    //                 items: 1,
+    //                 autoWidth: false
+    //             },
+    //             768: {
+    //                 items: 2
+    //             },
+    //             1024: {
+    //                 items: 3
+    //             },
+    //             1200: {
+    //                 items: 4
+    //             }
+    //         }
+    //     });
+    // }
 
     /*--------------------------------------------------------
     / 3. Mixer
